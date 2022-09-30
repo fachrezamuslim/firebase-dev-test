@@ -1,6 +1,9 @@
 .formElement {
-  display: inline-block;
+  display: flex;
   margin-bottom: 15px;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 10px;
 }
 .formElement .field {
   border: 1px solid #ddd;
@@ -40,6 +43,11 @@
 .formElement.hasDescription select {
   margin-right: 30px;
 }
+.formElement .form-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
 input[type="email"],
 input[type="number"],
 input[type="text"],
@@ -80,3 +88,4 @@ select:disabled,
 input[readonly] {
   color: #999;
 }
+
