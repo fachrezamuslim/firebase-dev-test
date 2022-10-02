@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "stop": "lsof -t -i :9099 -i :4000 -i :8080 -i :5001 -i :8081 -i :9000 -i :5000 -i :8085 -i :9199 | xargs kill -9"
   },
   "repository": {
