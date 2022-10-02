@@ -4,13 +4,12 @@ import { getApp } from 'firebase/app';
 import { initialize as initializeRouter, update } from './extensions/router';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCRRXg4SiH3L4Lg_CR70_qVzFWKty9S9WU',
-  authDomain: 'fir-dev-test-c0a05.firebaseapp.com',
-  projectId: 'fir-dev-test-c0a05',
-  storageBucket: 'fir-dev-test-c0a05.appspot.com',
-  messagingSenderId: '619744347704',
-  appId: '1:619744347704:web:a53631e267b324d96548cd',
-  measurementId: 'G-HDQ3WX4GN6'
+  apiKey: "AIzaSyBlEJZ9VVVRVE47p8hULSnTtXyU3UmHZkI",
+  authDomain: "fc-dev-test-3d736.firebaseapp.com",
+  projectId: "fc-dev-test-3d736",
+  storageBucket: "fc-dev-test-3d736.appspot.com",
+  messagingSenderId: "550501821464",
+  appId: "1:550501821464:web:8d45ebff8665e64c98a76d"
 };
 
 initializeApp(firebaseConfig);
